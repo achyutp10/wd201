@@ -12,3 +12,9 @@ fs.readFile('sample.txt', (err, data) => {
   if (err) throw err
   console.log(data.toString())
 })
+
+fs.appendFile('sample.txt', 'This is my updated content', (err) => {
+  if (err) throw err
+  console.log('File updated!')
+}
+)
