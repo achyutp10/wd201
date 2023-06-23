@@ -1,4 +1,4 @@
-const fs = require('fs')
+// const fs = require('fs')
 // fs.writeFile(
 //   'sample.txt',
 //   'Hello World. Welcome to Node.js File System Module.',
@@ -23,7 +23,7 @@ const fs = require('fs')
 //   console.log('File name updated')
 // })
 
-fs.unlink('test.txt', (err) => {
-  if (err) throw err
-  console.log('File test.txt deleted successfully')
-})
+// fs.unlink('test.txt', (err) => {
+//   if (err) throw err
+//   console.log('File test.txt deleted successfully')
+// })
